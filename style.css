@@ -1,0 +1,410 @@
+
+@font-face {
+    font-family: 'Mont';
+    src: url('./fonts/MONTSERRATALTERNATES-EXTRALIGHT.otf');
+}
+
+@font-face {
+    font-family: 'Gil';
+    src: url('./fonts/GILROY-BLACK.OTF');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Gil';
+    src: url('./fonts/GILROY-SEMIBOLD.OTF');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Gil';
+    src: url('./fonts/GILROY-MEDIUM.OTF');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Gil';
+    src: url('./fonts/GILROY-REGULAR.OTF');
+    font-weight: 300;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    min-height: 100%;
+}
+
+body {
+    overflow-x: hidden ;
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    background-color: transparent  ;
+    width: .5vmax;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #F2CC81;
+}
+.page1{
+     width: 100vw;
+     padding: 0 2vmax;
+     margin-top: 10vh;
+}
+h1{
+    font-size: 7.6vmax;
+    font-weight: 700;
+    font-family: "gil";
+    margin-left: 35px;
+}
+span{
+    color: #fc626a;
+   
+}
+span:hover{
+    text-decoration: line-through;
+    transition: 0.25s all ease;
+}
+.page2{
+      width: 100vw;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 2vmax;
+      position: relative;
+}
+a{
+    color: inherit !important;
+    text-decoration: none;
+    color: rgb(92, 177, 177);
+    transition: .7s all;
+    /* text-decoration: underline; */
+}
+.heading{
+    display: block;
+    /* font-size: 2.3em; */
+    width: 100%;
+    text-align: center;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 400;
+    font-family: gilroy;
+    font-size: 4vmax;
+}
+p{
+     /* font-weight: 500; */
+     /* font-size: 12px; */
+     display: flex;
+     /* font-family: 'Times New Roman', Times, serif; */
+     justify-content: center;
+     font: 300 1vmax "Gil";
+     text-align: center;
+     /* margin: 1vmax 0; */
+     width: 50vw;
+       
+       /* width: 200%; */
+     padding: 15px 0;
+
+}
+.page2-btn{
+      /* padding: 5px; */
+      /* padding: 0.9vmax 1.5vmax; */
+      /* border-radius: 1vmax; */
+        /* padding: 0 0 ; */
+      box-shadow: 0 0 0.5px #fc626a;
+      /* background: linear-gradient(to right,#fc626a #fe7d84); */
+}
+button{
+      /* text-decoration: underline; */
+      padding: 0.9vmax 1.5vmax;
+      border-radius: 5vmax;
+      border: none;
+      color: #fff;
+      font: 500 1vmax "Gilroy";
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      margin-top: 0.5vmax;
+      transition: 1s all ease-out;
+      background-color: #fd6f77;
+      font-weight: 600;
+      font-size: 15px;
+      font-family: gilroy;
+      box-shadow: 5px 5px 35px #fc626a ;
+      font-weight: 100;
+      
+}
+.glow {
+    position: absolute;
+    opacity: .3;
+    z-index: -11;
+}
+
+.purpleglow {
+    bottom: 20%;
+    left: 0;
+}
+
+.blueglow {
+    top: 20%;
+    right: 20%;
+    width: 15vmax;
+
+}
+.redglow {
+    bottom: 0;
+    right: 0;
+    width: 20vmax;
+}
+.page3{
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 15vmax 7vmax;
+}
+.title{
+    font: 500 3vmax "Gil";
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 1vmax;
+    color: #4e4e4e;
+} 
+.good{
+    color: #51CDE7;
+}
+.page3 .heading1{
+    font: 500 5vmax "Gil";
+    color: #5D5D5D;
+    position: relative;
+    /* z-index: 1; */
+}
+.page3-wrapper{
+        display: block;
+        /* padding: 5vmax 0; */
+}
+h6{
+    font: 400 1.2vmax "Gil";
+    color: rgb(97, 96, 96);
+    /* margin-bottom: 5vmax; */
+    /* margin-right: -10px; */
+    display: block;
+     padding: 25px 0;
+    /* margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; */
+}
+hr{
+    margin-left: 2vmax;
+    width: 5vmax;
+    height: 0.1vmax;
+    background-color: rgb(204, 202, 202);
+    border: none;
+}
+.page3-wrapper{
+    position: relative;
+}
+.box-dev-box{
+      padding: 2vmax 0;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-evenly;
+       align-items: center;
+}
+.img{
+      height: 45px;
+      width: 51px;
+      padding: 5px 0;
+}
+.heading2{
+         transform: translate(65%,35%);
+         font: 500 5vmax "Gil";
+         color: #5D5D5D;
+         position: relative;
+         z-index: 1;
+}
+.img1{
+      width: 110px;
+
+}
+.page4{
+    height: 100vh;
+    width: 100vw;
+    padding: 0 5vmax;
+}
+.page4-heading{
+    font: 500 3vmax "Gil";
+    display: flex;
+    align-items: center;
+    margin-bottom: 1vmax;
+    color: #4e4e4e;
+}
+.love{
+      color: #fc626a;
+}
+.page4-title{
+       display: flex;
+       flex-direction: column;
+       padding-left: 10px;
+}
+.hrtag{
+    margin-left: 2vmax;
+    width: 5vmax;
+    height: 0.1vmax;
+    background-color: rgb(204, 202, 202);
+    border: none;
+}
+.page4-wrapper{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+
+}
+.page4-sectionn{
+       height: 300px;
+       width: 370px;
+       padding: 15px 10px;
+      display: flex;
+      flex-direction: column;
+      object-fit: cover;
+      object-position: center;
+}
+.page4-sectionn img{
+      padding: 20px 10px;
+}
+.image{
+      height: 200px;
+      width: 350px;
+      object-fit: cover;
+      object-position: center;
+}
+.page4-heading2{
+    font: 500 9vmax "Gil";
+    line-height: 9vmax;
+    text-align: right;
+    transform: translateY(-50%);
+    margin-top: 16vmax;
+}
+.page5{
+    width: 110vw;
+    height: 100vh;
+    padding: 0 2vmax; 
+    margin-top: 6vh; 
+    background-color: #414040;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.work{
+    color: #FC626A;
+}
+.page5>h1{
+    font: 700 9vmax "Gil";
+    text-align: start;
+    /* padding: -20px 0;  */
+}
+footer{
+    display: flex;
+    align-items: center;
+    padding: 2vmax 0;
+    font: normal 1.2vmax "Mont";
+    transition: all .2s ease-out;
+}
+.mail{
+      color: #FC626A;
+}
+.instagram{
+    color: #F6BA53;
+}
+.linkedin{
+        color: #51CDE7; 
+}
+
+footer>img {
+    width: 2vmax;
+    margin: 0 0.5vmax;
+}
+.author{
+      text-decoration: initial;
+      color: white;
+      font: normal 4vmax "Sha";
+      cursor: pointer;
+      font-family: 'Dancing Script', cursive;
+}
+.imggg{
+      object-fit: cover;
+      object-position: center;
+}
+          /*   CSS End  */
+
+ @media screen and (max-width:600px){
+        html,body{
+              overflow-X: hidden;
+        }
+       .page4-wrapper{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: start;
+            height: 100vh;
+       }
+       .page4-sectionn img{
+           width: 60vw;
+           padding: 40px 0;
+       }
+       .page4-sectionn video{
+            width: 60vw;
+            /* padding: 20px 0; */
+       }
+       .page5>h1{
+        font: 700 6vmax "Gil";
+        text-align: start;
+        line-height: 8vmax;
+       }
+       .page4-heading2{
+             font-size: 6vmax;
+       }
+       .linkedin{
+          font-size: 8vmax;
+       }
+       .img{
+        height: 35px;
+        width: 35px;
+        padding: 5px 5px;
+       }
+       .img1{
+           /* height: ; */
+           width:70px ;
+           padding: 5px ;
+       }
+       .heading2{
+        transform: translate(55%,35%);
+        font: 500 5vmax "Gil";
+        color: #5D5D5D;
+        position: relative;
+        z-index: 1;
+       }
+         p{
+            width: 100vw;
+         }
+
+ }         
+
+
+
+
+
