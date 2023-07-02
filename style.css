@@ -343,7 +343,8 @@ footer>img {
       color: white;
       font: normal 4vmax "Sha";
       cursor: pointer;
-      font-family: 'Dancing Script', cursive;
+      font-family: 'Dancing Script', cursive;`
+      
 }
 .imggg{
       object-fit: cover;
@@ -371,7 +372,7 @@ footer>img {
             /* padding: 20px 0; */
        }
        .page5>h1{
-        font: 700 6vmax "Gil";
+        font: 700 7.5vmax "Gil";
         text-align: start;
         line-height: 8vmax;
        }
