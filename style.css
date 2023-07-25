@@ -295,7 +295,7 @@ hr{
     line-height: 9vmax;
     text-align: right;
     transform: translateY(-50%);
-    margin-top: 16vmax;
+    margin-top: 15vmax;
 }
 .page5{
     width: 110vw;
@@ -343,8 +343,8 @@ footer>img {
       color: white;
       font: normal 4vmax "Sha";
       cursor: pointer;
-      font-family: 'Dancing Script', cursive;`
-      
+      font-family: 'Dancing Script', cursive;
+
 }
 .imggg{
       object-fit: cover;
@@ -372,11 +372,13 @@ footer>img {
             /* padding: 20px 0; */
        }
        .page5>h1{
-        font: 700 7.5vmax "Gil";
+        font: 700 7vmax "Gil";
         text-align: start;
         line-height: 8vmax;
+        margin-left: 5px;
        }
        .page4-heading2{
+             padding-top: 10vmax;
              font-size: 6vmax;
        }
        .linkedin{
