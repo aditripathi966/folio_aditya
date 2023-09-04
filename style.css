@@ -291,11 +291,11 @@ hr{
       object-position: center;
 }
 .page4-heading2{
-    font: 500 9vmax "Gil";
-    line-height: 9vmax;
+    font: 500 7vmax "Gil";
+    line-height: 7vmax;
     text-align: right;
     transform: translateY(-50%);
-    margin-top: 15vmax;
+    margin-top: 13vmax;
 }
 .page5{
     width: 110vw;
@@ -378,7 +378,7 @@ footer>img {
         margin-left: 5px;
        }
        .page4-heading2{
-             padding-top: 10vmax;
+             padding-top: 20vmax;
              font-size: 6vmax;
        }
        .linkedin{
